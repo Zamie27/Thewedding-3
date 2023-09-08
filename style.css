@@ -74,6 +74,11 @@ hero h4 {
   text-transform: uppercase;
 }
 
+/* toggler nav */
+.mynavbar .navbar-toggler {
+  display: none;
+}
+
 .home {
   background-image: url(img/bg.png);
   background-size: cover;
