@@ -1,3 +1,16 @@
+// script.js
+window.addEventListener("load", function () {
+  // Website telah selesai dimuat
+  var loadingSpinner = document.querySelector(".loading-spinner");
+  var content = document.getElementById("content");
+
+  // Sembunyikan loading spinner
+  loadingSpinner.style.display = "none";
+
+  // Tampilkan konten website
+  content.style.display = "block";
+});
+
 // <!-- simply countdown js -->
 
 simplyCountdown(".simply-countdown", {
