@@ -46,8 +46,8 @@ const bgm = document.querySelector("#bgm");
 let isPlaying = false;
 
 function disableScroll() {
-  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+  scrollTop = window.scrollY || document.documentElement.scrollTop;
+  scrollLeft = window.scrollY || document.documentElement.scrollLeft;
 
   window.onscroll = function () {
     window.scrollTo(scrollTop, scrollLeft);
