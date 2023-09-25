@@ -65,7 +65,7 @@ function enableScroll() {
 
 // <!-- bgm audio -->
 function playAudio() {
-  bgm.volume = 0.5;
+  bgm.volume = 0.4;
   audioIconWrapper.style.display = "flex";
   bgm.play();
   isPlaying = true;
